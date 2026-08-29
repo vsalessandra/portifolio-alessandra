@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#08060C;font-family:"Space Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;text-wrap:pretty}
+a{color:#8B5CF6;text-decoration:none}
+a:hover{color:#F4F1F8}
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+  <section data-label="Capa" data-screen-label="01" data-speaker-notes="Abertura: nome, cargo e foco em Web, ERP e Mobile." style="background:#08060C;color:#F4F1F8;padding:150px 140px;display:flex;flex-direction:column;justify-content:center;gap:0">
+    <p style="margin:0 0 44px;font-family:'JetBrains Mono',monospace;font-size:28px;letter-spacing:0.2em;text-transform:uppercase;color:#8B5CF6">QA / Analista de Testes</p>
+    <h1 style="margin:0;font-size:150px;font-weight:700;line-height:0.93;letter-spacing:-0.045em">Alessandra<br>Vitoria Daniel</h1>
+    <p style="margin:56px 0 0;max-width:26ch;font-size:42px;line-height:1.45;color:#8B8399">Testes de sistemas Web, ERP e Mobile — do requisito à evidência.</p>
+  </section>
+
+  <section data-label="Sobre mim" data-screen-label="02" data-speaker-notes="Estudante de Engenharia de Software no 6º período; atuação atual em QA." style="background:#08060C;color:#F4F1F8;padding:130px 140px;display:grid;grid-template-columns:300px 1fr;gap:80px;align-content:center">
+    <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:#8B5CF6">Sobre mim</h2>
+    <div style="display:flex;flex-direction:column;gap:28px;max-width:44ch">
+      <p style="margin:0;font-size:46px;line-height:1.25;letter-spacing:-0.02em">Estudante de Engenharia de Software no 6º período e Analista de Testes.</p>
+      <p style="margin:0;font-size:28px;line-height:1.6;color:#8B8399">Valido requisitos e regras de negócio, executo cenários e registro bugs em aplicações Web, ERPs e Mobile. Base em back-end com Java e Spring Boot.</p>
+    </div>
+  </section>
+
+  <section data-label="Atuação" data-screen-label="03" data-speaker-notes="Quatro frentes de atuação — manual, API, automação e performance." style="background:#0E0A15;color:#F4F1F8;padding:130px 140px;display:flex;flex-direction:column;justify-content:center;gap:70px">
+    <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:#8B5CF6">Atuação</h2>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:66px 90px">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">QA-01</span>
+        <span style="font-size:44px;font-weight:500;letter-spacing:-0.02em">Testes funcionais</span>
+        <span style="font-size:28px;line-height:1.55;color:#8B8399">Web, ERP e Mobile — funcional, exploratório, integração e regressão.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">QA-02</span>
+        <span style="font-size:44px;font-weight:500;letter-spacing:-0.02em">APIs REST</span>
+        <span style="font-size:28px;line-height:1.55;color:#8B8399">Contratos, status, autenticação e cenários negativos.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">QA-03</span>
+        <span style="font-size:44px;font-weight:500;letter-spacing:-0.02em">Automação</span>
+        <span style="font-size:28px;line-height:1.55;color:#8B8399">Cypress, Cucumber e Gherkin integrados ao pipeline.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">QA-04</span>
+        <span style="font-size:44px;font-weight:500;letter-spacing:-0.02em">Desempenho</span>
+        <span style="font-size:28px;line-height:1.55;color:#8B8399">Planos de carga e estresse com JMeter.</span>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Projetos" data-screen-label="04" data-speaker-notes="Quatro projetos: suíte manual, APIs, regressão automatizada e performance." style="background:#08060C;color:#F4F1F8;padding:130px 140px;display:flex;flex-direction:column;justify-content:center;gap:60px">
+    <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:#8B5CF6">Projetos</h2>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:60px 90px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">QA Manual</span>
+        <span style="font-size:42px;font-weight:500;letter-spacing:-0.02em">Suíte de testes funcionais</span>
+        <span style="font-size:27px;line-height:1.5;color:#8B8399">Casos de teste, plano de regressão e registro de bugs com evidências.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">API Testing</span>
+        <span style="font-size:42px;font-weight:500;letter-spacing:-0.02em">Validação de APIs REST</span>
+        <span style="font-size:27px;line-height:1.5;color:#8B8399">Status, schema, autenticação e cenários negativos por endpoint.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">Automação</span>
+        <span style="font-size:42px;font-weight:500;letter-spacing:-0.02em">Regressão automatizada</span>
+        <span style="font-size:27px;line-height:1.5;color:#8B8399">Login, cadastro e checkout em BDD executados no pipeline.</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0.14em;text-transform:uppercase;color:#8B5CF6">Performance</span>
+        <span style="font-size:42px;font-weight:500;letter-spacing:-0.02em">Teste de desempenho</span>
+        <span style="font-size:27px;line-height:1.5;color:#8B8399">Carga e estresse com análise de tempo de resposta.</span>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Stack" data-screen-label="05" data-speaker-notes="Ferramentas e linguagens do dia a dia." style="background:#0E0A15;color:#F4F1F8;padding:150px 140px;display:flex;flex-direction:column;justify-content:center;gap:56px">
+    <h2 style="margin:0;font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:400;letter-spacing:0.18em;text-transform:uppercase;color:#8B5CF6">Stack</h2>
+    <p style="margin:0;max-width:30ch;font-size:76px;font-weight:500;line-height:1.3;letter-spacing:-0.03em">Cypress · Cucumber · Gherkin · Postman · JMeter · Java · Spring Boot · SQL · Git · CI/CD</p>
+  </section>
+
+  <section data-label="Contato" data-screen-label="06" data-speaker-notes="Encerramento e canais de contato." style="background:#08060C;color:#F4F1F8;padding:150px 140px;display:flex;flex-direction:column;justify-content:center;gap:80px">
+    <h2 style="margin:0;max-width:18ch;font-size:120px;font-weight:700;line-height:1;letter-spacing:-0.04em">Vamos falar sobre qualidade.</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:64px;font-size:34px">
+      <span style="color:#F4F1F8">linkedin.com/in/vsalessandra</span>
+      <span style="color:#8B8399">GitHub</span>
+      <span style="color:#8B8399">seu-email@exemplo.com</span>
+    </div>
+  </section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
