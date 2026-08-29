@@ -21,18 +21,19 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Space Grotesk",
 a{color:var(--accent);text-decoration:none}
 a:hover{color:var(--ink)}
 ::selection{background:var(--accent);color:#08060C}
+nav.mainnav{scrollbar-width:none}
+nav.mainnav::-webkit-scrollbar{display:none}
 </style>
 </helmet>
 <div style="min-height:100vh;background:var(--bg)">
 
-  <header style="position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px max(8vw,24px);background:rgba(8,6,12,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);box-shadow:0 1px 0 rgba(139,92,246,.18)">
-    <a href="#home" style="display:flex;align-items:center;gap:11px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;letter-spacing:0.01em;color:var(--ink)"><span style="display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#5B21B6);color:#fff;font-size:13px;box-shadow:0 6px 18px rgba(139,92,246,.45)">AV</span>alessandra<span style="color:var(--accent)">.qa</span></a>
-    <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:0.08em">
-      <a href="#home" style="padding:9px 16px;border-radius:999px;color:var(--muted);transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">início</a>
-      <a href="#sobre" style="padding:9px 16px;border-radius:999px;color:var(--muted);transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">sobre</a>
-      <a href="#tecnologias" style="padding:9px 16px;border-radius:999px;color:var(--muted);transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">tecnologias</a>
-      <a href="#projetos" style="padding:9px 16px;border-radius:999px;color:var(--muted);transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">projetos</a>
-      <a href="#contato" style="padding:9px 18px;border-radius:999px;background:var(--accent);color:#08060C;font-weight:600;box-shadow:0 6px 16px rgba(139,92,246,.35)" style-hover="background:var(--ink)">contato</a>
+  <header style="position:sticky;top:0;z-index:20;display:flex;align-items:center;padding:16px max(6vw,18px);background:rgba(8,6,12,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);box-shadow:0 1px 0 rgba(139,92,246,.18)">
+    <nav class="mainnav" style="display:flex;align-items:center;gap:8px;margin-left:auto;max-width:100%;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:14px;letter-spacing:0.08em">
+      <a href="#home" style="padding:9px 16px;border-radius:999px;color:var(--muted);flex:none;white-space:nowrap;transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">início</a>
+      <a href="#sobre" style="padding:9px 16px;border-radius:999px;color:var(--muted);flex:none;white-space:nowrap;transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">sobre</a>
+      <a href="#tecnologias" style="padding:9px 16px;border-radius:999px;color:var(--muted);flex:none;white-space:nowrap;transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">tecnologias</a>
+      <a href="#projetos" style="padding:9px 16px;border-radius:999px;color:var(--muted);flex:none;white-space:nowrap;transition:color .15s,background .15s" style-hover="color:var(--accent);background:rgba(139,92,246,.12)">projetos</a>
+      <a href="#contato" style="padding:9px 18px;border-radius:999px;background:var(--accent);color:#08060C;font-weight:600;flex:none;white-space:nowrap;box-shadow:0 6px 16px rgba(139,92,246,.35)" style-hover="background:var(--ink)">contato</a>
     </nav>
   </header>
 
