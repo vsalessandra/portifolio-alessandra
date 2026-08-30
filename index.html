@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('tema-portfolio')==='light'?'light':'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}</script>
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('tema-portfolio')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -256,7 +256,7 @@ const PROJETOS = [
 ];
 
 function temaInicial() {
-  try { return localStorage.getItem('tema-portfolio') === 'light'; } catch (e) { return false; }
+  try { return localStorage.getItem('tema-portfolio') !== 'dark'; } catch (e) { return true; }
 }
 
 class Component extends DCLogic {
